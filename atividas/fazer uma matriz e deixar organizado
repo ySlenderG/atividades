@@ -1,0 +1,10 @@
+matriz = ([0,0,0,],[0,0,0,], [0,0,0])
+for l in range(0,3): # L vai ser a linha com 3 de distancia.
+    for c in range(0,3): # C vai ser a colina com 3 de autura
+        matriz[l] [c] = int(input(f'Digite um valor: '))
+# A parte de cima ja e uma matriz feita. se der um print(matriz)aqui ele ja inprimi a matriz
+print('-=' * 30)# print de resultado
+for l in range(0,3):
+    for c in range(0,3):
+        print(f'[{matriz[l] [c]:^5}]', end= '')
+    print()
