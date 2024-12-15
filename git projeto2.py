@@ -25,7 +25,8 @@ while True:
     n_choices = n_choices + 1
 
     if answer_user == random_number:
-        print("Acertou!")
+        print("Parabens você Acertou!")
+        
         break
 
 print("Nº de tentativas:"  + str(n_choices))
