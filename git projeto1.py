@@ -1,7 +1,7 @@
 print("bem vindo!")
 answer_user = input("quer comecar? (S/N) ")
 
-if answer_user != "S":
+if answer_user != "":
     print("ate mas.")
     quit()
 
